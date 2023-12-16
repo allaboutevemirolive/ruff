@@ -539,7 +539,7 @@ impl<'a> FormatResults<'a> {
         } else if unchanged > 0 {
             writeln!(
                 f,
-                "{} file{} left unchanged",
+                "{} file{} already formatted",
                 unchanged,
                 if unchanged == 1 { "" } else { "s" },
             )

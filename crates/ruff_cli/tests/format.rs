@@ -255,7 +255,7 @@ fn mixed_line_endings() -> Result<()> {
     ----- stdout -----
 
     ----- stderr -----
-    2 files left unchanged
+    2 files already formatted
     "###);
     Ok(())
 }
